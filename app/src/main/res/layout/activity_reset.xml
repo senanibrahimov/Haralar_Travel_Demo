@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reset_activity"
+    android:fillViewport="true"
+
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/register_layout"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/download"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal">
+
+    </ImageView>
+
+    <EditText
+        android:padding="9dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sifre_gmail"
+        android:singleLine="true"
+        android:background="@drawable/register_bacground"
+        android:hint="Mail"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="7dp"
+
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifrəni yenilə"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="4dp"
+        android:id="@+id/sifreni_yenile"
+        >
+
+    </Button>
+</LinearLayout>
+
+
+</ScrollView>

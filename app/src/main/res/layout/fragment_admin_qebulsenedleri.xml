@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:id="@+id/Framelayout_1"
+    android:orientation="vertical"
+    tools:context=".fragment_admin_qebulsenedleri">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <SearchView
+        android:id="@+id/searcheer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="search user"
+        android:iconifiedByDefault="false">
+
+    </SearchView>
+    <androidx.recyclerview.widget.RecyclerView
+
+     android:layout_below="@+id/searcheer"
+        android:id="@+id/usercontract"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_above="@id/brrr"
+
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/brrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="gotoadd">
+
+    </Button>
+
+</RelativeLayout>
+
+
+
+
+</FrameLayout>
+
+

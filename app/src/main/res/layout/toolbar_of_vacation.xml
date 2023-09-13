@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:id="@+id/toolbar"
+    >
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imagemenu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_menu_24">
+
+            </ImageView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Haralar Travel"
+          android:textColor="@color/goy"
+          android:layout_gravity="center"
+          android:textSize="20sp"
+
+          android:textStyle="bold|italic">
+
+      </TextView>
+
+  <!--  <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/vakanssss">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dss">
+
+    </Button>
+
+    <Spinner
+        android:layout_width="0dp"
+
+        android:layout_height="50dp"
+        android:id="@+id/butunvakansiyalar">
+
+    </Spinner>
+    -->
+           <!--<androidx.appcompat.widget.SearchView
+                android:id="@+id/searchview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:queryHint="vakansiya axtar"
+                app:iconifiedByDefault="false"
+
+                >
+
+            </androidx.appcompat.widget.SearchView>
+-->
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/qebulbendleri"
+        android:title="Müştərinin qəbulu"
+        ></item>
+    <item android:id="@+id/visa_muracieti" android:title="Viza müracieti"
+        ></item>
+
+    <item android:id="@+id/full_of_file" android:title="Viza alma"></item>
+    <item android:id="@+id/musteriinfo" android:title="Müştərinin məlumatları"></item>
+    <item android:id="@+id/musterivizainfo" android:title="Müştərinin visa məlumatları"></item>
+
+    <item android:id="@+id/export_visa" android:title="Export  məlumatlar"></item>
+    <item android:id="@+id/contact" android:title="Şirkətlə əlaqə"></item>
+    <item android:id="@+id/logout" android:title="Cıxış"></item>
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547016815371",
+    "project_id": "haralar-87664",
+    "storage_bucket": "haralar-87664.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547016815371:android:dfa4114d6347978872e80e",
+        "android_client_info": {
+          "package_name": "com.sananibrahimov.adding_new_column"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547016815371-e02vgus1dlapgvh6k8mhbq0oflel8dbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7ihjolzJkagarKkDfYAyWYzXbANrO5-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547016815371-e02vgus1dlapgvh6k8mhbq0oflel8dbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

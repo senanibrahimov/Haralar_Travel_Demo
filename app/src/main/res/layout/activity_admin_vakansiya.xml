@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".admin_vakansiya"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="8dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp">
+
+
+            <ImageView
+
+                android:id="@+id/add_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/haralar"
+                >
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    <Spinner
+        android:layout_marginTop="15dp"
+        android:id="@+id/spinner_lacation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:foreground="@drawable/register_bacground"
+        android:spinnerMode="dialog"
+        android:clickable="true"
+        android:autofillHints="ssssssss"
+        >
+
+    </Spinner>
+
+
+
+        <Spinner
+            android:id="@+id/vakansiya_spinner"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:foreground="@drawable/register_bacground"
+            android:spinnerMode="dialog"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:clickable="true"
+            android:autofillHints="ssssssss"
+            >
+
+        </Spinner>
+
+
+        <Spinner
+            android:id="@+id/Sirket_vakansiya"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:foreground="@drawable/register_bacground"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:autofillHints="ssssssss"
+            >
+
+        </Spinner>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/register_bacground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:hint="vakansiya haqqinda"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+
+        android:padding="15dp"
+        android:id="@+id/vakansiyaAddmelumt"
+        >
+    </EditText>
+
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/click"
+        android:text="əlave et">
+
+    </Button>
+
+</LinearLayout>
+</ScrollView>

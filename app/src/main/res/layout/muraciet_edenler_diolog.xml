@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/muracietname"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:text="Name"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:id="@+id/muraciesurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:text="Surname"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:id="@+id/muracietgmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:text="Gmail"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:id="@+id/telefonmuraciet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:text="telefon"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TextView
+        android:id="@+id/vaksinmuraciet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:text="vaka"
+        android:textColor="@color/black">
+
+    </TextView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ok"
+        android:id="@+id/ok_buuton">
+
+    </Button>
+
+
+
+</LinearLayout>

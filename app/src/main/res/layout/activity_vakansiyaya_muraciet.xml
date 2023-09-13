@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/register_layout"
+    tools:context=".vakansiyaya_muraciet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+
+        >
+
+
+        <ImageView
+            android:id="@+id/haralar_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/haralar"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="3dp"
+            android:layout_marginTop="5dp">
+
+
+
+                <TextView
+                    android:id="@+id/locaotion_muraciet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Lo"
+                    android:background="@drawable/register_bacground"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:padding="8dp"
+                    android:layout_marginRight="10dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+                </TextView>
+
+
+
+
+                <TextView
+                    android:id="@+id/muraciet_vakansiya23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Loc"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_work_24"
+                    android:padding="8dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:background="@drawable/register_bacground"
+                    android:textSize="16sp"
+                     >
+
+                </TextView>
+
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+
+            android:hint="Tələblər"/>
+        <TextView
+            android:id="@+id/vakansiyanameofmurciet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:background="@drawable/register_bacground"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/black"
+            android:hint="Texview sjjdjjdjdjdjdjdj"/>
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="10dp"
+      android:gravity="center">
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="muraciet et"
+          android:id="@+id/muraciet_et">
+
+      </Button>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Delete"
+          android:id="@+id/deletevakansiyamur">
+
+      </Button>
+
+  </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

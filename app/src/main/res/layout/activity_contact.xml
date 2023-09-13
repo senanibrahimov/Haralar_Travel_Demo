@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/register_layout"
+    tools:context=".contact"
+    android:gravity="center">
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/download"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:autoLink="all"
+        android:text="Sayta kecid:http://haralar.com\n\nTelefon:+994553336949\n\nGmail:info@haralar.com\n\nİnstagram:https://instagram.com/haralar_travel\n\n Tiktok:https://www.tiktok.com/@haralar.travel"
+        android:textColor="@color/black"
+        android:textSize="15sp">
+
+    </TextView>
+
+
+</LinearLayout>

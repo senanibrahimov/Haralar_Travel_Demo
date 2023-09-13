@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/register_layout"
+    android:id="@+id/drawer_layout"
+
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainactivity_layout"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+
+
+
+        <include layout="@layout/toolbar_of_vacation">
+
+        </include>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Spinner
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:id="@+id/vakanssss"
+                >
+
+            </Spinner>
+
+
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="50dp"
+                android:id="@+id/butunvakansiyalar">
+
+            </Spinner>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reycelview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+           >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_layout"
+        app:menu="@menu/navigation_view"
+        tools:ignore="MissingClass">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+    <!-- <EditText
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:id="@+id/salam"
+         android:hint="emaikliniz daxil edin"
+         android:textSize="24dp"
+         android:paddingTop="8dp"
+
+         >
+
+     </EditText>
+     <EditText
+         android:layout_marginTop="23dp"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:id="@+id/parol"
+         android:hint="emaikliniz daxil edin"
+         android:textSize="24dp"
+         android:editable="true"
+         android:paddingTop="8dp"
+
+         >
+
+     </EditText>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:id="@+id/button"
+         android:text="click">
+
+     </Button>
+     -->
+</androidx.drawerlayout.widget.DrawerLayout>

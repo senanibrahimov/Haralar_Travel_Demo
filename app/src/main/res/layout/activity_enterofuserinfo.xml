@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".enterofuserinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Name,Surnamen,father"
+                android:textColor="@color/black"
+                android:paddingLeft="6dp"
+                android:id="@+id/user_name"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Gmail"
+                android:textColor="@color/black"
+                android:paddingLeft="6dp"
+                android:id="@+id/musteri_gmail"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:gravity="center_vertical"
+                 android:orientation="horizontal">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Muraciet tarixi:"
+                     android:padding="4dp"
+                     android:textColor="@color/black">
+
+                 </TextView>
+
+                 <EditText
+
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="muraciet tarixi"
+                     android:textColor="@color/black"
+                     android:id="@+id/muraciet_vaxti"
+                     android:background="@color/haralar">
+
+                 </EditText>
+             </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gedeceyi olke:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="gedeceyi olke"
+                android:textColor="@color/black"
+                android:id="@+id/gedeceyi_olke"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muqavile nomresi:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="muqavile nomresi"
+                android:textColor="@color/black"
+                android:id="@+id/muqavile_nomresi"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobil nomre:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="mobile_nomre"
+                android:textColor="@color/black"
+                android:id="@+id/mobile_nomre"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dogum tarixi:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="dogum_tarixi"
+                android:textColor="@color/black"
+
+                android:id="@+id/dogumtarxi"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muqavile tarixi"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="muqaviletarixi"
+                android:textColor="@color/black"
+                android:id="@+id/muqavile_tarixi"
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Odenilecek mebleg:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="odelinecek mebleg"
+                android:textColor="@color/black"
+                android:id="@+id/odenilecek_mebleg"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilkin odenis:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ilkin odenis"
+                android:textColor="@color/black"
+                android:id="@+id/ilkin_odenis"
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vakansiya və son tarix:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="vakansiya_date"
+                android:textColor="@color/black"
+                android:id="@+id/vakansiya_date"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qaliq borc:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:hint="qaliq_borc"
+                android:id="@+id/qaliq_borc"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qebul eden sirket:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="qebul eden sirket"
+                android:textColor="@color/black"
+                android:id="@+id/qebul_eden_sirket"
+
+
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:backgroundTint="@color/haralar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X.passportun nomresi:"
+            android:padding="4dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="xarici_passport nomresi"
+            android:textColor="@color/black"
+            android:id="@+id/xarici_passportnomresi"
+
+
+            android:background="@color/haralar">
+
+        </EditText>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X.passport baslama:"
+                    android:padding="4dp"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="xarici_passport baslama tarixi"
+                    android:textColor="@color/black"
+                    android:id="@+id/xarici_passport_baslama"
+
+
+                    android:background="@color/haralar">
+
+                </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X.passport bitme:"
+                    android:padding="4dp"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="xarici passport bitme tarixi"
+                    android:textColor="@color/black"
+                    android:id="@+id/xarici_passport_bitme"
+
+
+                    android:background="@color/haralar">
+
+                </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anket"
+                    android:padding="4dp"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="anketin yazilmasi"
+                    android:textColor="@color/black"
+                    android:id="@+id/anket_melumati"
+                    android:background="@color/haralar">
+
+                </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:backgroundTint="@color/haralar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Milliyeti:"
+            android:padding="4dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="milliyeti"
+            android:textColor="@color/black"
+            android:id="@+id/Milliyeti"
+            android:background="@color/haralar">
+
+        </EditText>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:backgroundTint="@color/haralar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adresi:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adress"
+            android:textColor="@color/black"
+            android:id="@+id/adress"
+            android:background="@color/haralar">
+
+        </EditText>
+            </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/haralar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S.Vəsiqəsi seriyasi:"
+                android:padding="4dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="vesiqes seriya"
+                android:textColor="@color/black"
+                android:id="@+id/sexsiyyetvesiqesi"
+                android:background="@color/haralar">
+
+            </EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/delete"
+          android:text="delete"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp">
+
+
+      </Button>
+
+      <Button
+          android:layout_marginTop="10dp"
+          android:id="@+id/button1"
+          android:layout_marginRight="10dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="əlavə et">
+
+
+      </Button>
+
+      <Button
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="update"
+          android:id="@+id/update">
+
+      </Button>
+
+
+
+  </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
